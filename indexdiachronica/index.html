@@ -52,12 +52,14 @@ async function logJSON() {
   card.innerHTML = `${data.changesets[0].metadata.parent} to ${data.changesets[0].metadata.child}:  `;
   document.querySelector('#renderedRule').appendChild(card);
   console.log(data.changesets[0].changeset.length);
-  for (let i = 0; i < data.changesets[0].changeset.length; i++) {
+  for(letj = 0; j< data.changesets.length; j++) {
+  for (let i = 0; i < data.changesets[j].changeset.length; i++) {
     var card = document.createElement("p");
-    let rule = data.changesets[0].changeset[i];
+    let rule = data.changesets[j].changeset[i];
     card.innerHTML = `${rule.before} → ${rule.after} ${rule.env ? '/ ' + rule.env : ''}     reliability: ${rule.rel}`;
-    console.log(data.changesets[0].changeset[i]);
+    console.log(data.changesets[j].changeset[i]);
     document.querySelector('#renderedRule').appendChild(card);
+  }
   }
   
 }

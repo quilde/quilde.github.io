@@ -1,198 +1,230 @@
 {
     "changesets": [
         {
+            "id": "0",
             "metadata": {
                 "parent": "Proto-Afro-Asiatic", 
-                "child": "Proto-Omotic"
+                "child": "Proto-Omotic",
+                "or_contr": "Mecislau",
+                "source": "0",
+                "note": [
+                    ""
+                ]
             },
             "changeset": [
                 {
-                    "before": "dz ʃ tʃ",
-                    "after": "ʒ s1 s2",
+                    "id": "0",
+                    "before": "dz",
+                    "after": "ʒ",
                     "env": "",
-                    "src": [
-                        "0"
-                    ],
-                    "or_auth": "Mecislau",
                     "rel": "unchecked",
-                    "tag": [
-                        ""
-                    ],
+                    "tag": [""],
                     "note": [
                         ""
-                    ]
-
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": ["1","2"]
                 },
                 {
+                    "id": "1",
+                    "before": "ʃ",
+                    "after": "s1",
+                    "env": "",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": ["0","2"]
+                },
+                {
+                    "id": "2",
+                    "before": "tʃ",
+                    "after": "s2",
+                    "env": "",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": ["0","1"]
+                },
+                {
+                    "id": "3",
                     "before": "dʒ → tʃ",
                     "after": "ʃ",
                     "env": "",
-                    "src": [
-                        "0"
-                    ],
-                    "or_auth": "Mecislau",
                     "rel": "unchecked",
-                    "tag": [
-                        ""
-                    ],
+                    "tag": ["w"],
                     "note": [
                         ""
-                    ]
-
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
                 },
                 {
+                    "id": "4",
                     "before": "t",
-                    "after": "∅ ",
+                    "after": "∅",
                     "env": " _s#",
-                    "src": [
-                        "0"
-                    ],
-                    "or_auth": "Mecislau",
                     "rel": "unchecked",
-                    "tag": [
-                        ""
-                    ],
+                    "tag": [""],
                     "note": [
                         ""
-                    ]
-
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
                 },
                 {
+                    "id": "5",
                     "before": "ɬ",
                     "after": "l",
                     "env": "",
-                    "src": [
-                        "0"
-                    ],
-                    "or_auth": "Mecislau",
                     "rel": "unchecked",
-                    "tag": [
-                        ""
-                    ],
+                    "tag": [""],
                     "note": [
                         ""
-                    ]
-
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
                 },
                 {
+                    "id": "6",
                     "before": "f",
                     "after": "p",
                     "env": "",
-                    "src": [
-                        "0"
-                    ],
-                    "or_auth": "Mecislau",
                     "rel": "unchecked",
-                    "tag": [
-                        ""
-                    ],
+                    "tag": [""],
                     "note": [
                         ""
-                    ]
-
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
                 },
                 {
+                    "id": "7",
                     "before": "a(ː)",
                     "after": "e(ː) ",
                     "env": " _{ʕ,q}$",
-                    "src": [
-                        "0"
-                    ],
-                    "or_auth": "Mecislau",
                     "rel": "unchecked",
-                    "tag": [
-                        ""
-                    ],
+                    "tag": [""],
                     "note": [
                         ""
-                    ]
-
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
                 },
                 {
-                    "before": "q ʕ",
-                    "after": "ʔ h",
+                    "id": "8",
+                    "before": "q",
+                    "after": "ʔ",
                     "env": "",
-                    "src": [
-                        "0"
-                    ],
-                    "or_auth": "Mecislau",
                     "rel": "unchecked",
-                    "tag": [
-                        ""
-                    ],
+                    "tag": [""],
                     "note": [
                         ""
-                    ]
-
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": ["9"]
                 },
                 {
+                    "id": "9",
+                    "before": "ʕ",
+                    "after": "h",
+                    "env": "",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": ["8"]
+                },
+                {
+                    "id": "10",
                     "before": "a",
                     "after": "o ",
                     "env": " #Cw_{(d)l,s3}",
-                    "src": [
-                        "0"
-                    ],
-                    "or_auth": "Mecislau",
                     "rel": "unchecked",
-                    "tag": [
-                        ""
-                    ],
+                    "tag": [""],
                     "note": [
                         ""
-                    ]
-
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
                 },
                 {
+                    "id": "11",
                     "before": "w",
-                    "after": "∅ ",
+                    "after": "∅",
                     "env": " #C_V, except _i(ː)",
-                    "src": [
-                        "0"
-                    ],
-                    "or_auth": "Mecislau",
                     "rel": "unchecked",
-                    "tag": [
-                        ""
-                    ],
+                    "tag": [""],
                     "note": [
                         ""
-                    ]
-
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
                 },
                 {
+                    "id": "12",
                     "before": "ʃ",
                     "after": "s2 ",
                     "env": " {i,j}_",
-                    "src": [
-                        "0"
-                    ],
-                    "or_auth": "Mecislau",
                     "rel": "unchecked",
-                    "tag": [
-                        ""
-                    ],
+                    "tag": [""],
                     "note": [
                         ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [
+                        ""
                     ]
-
                 },
                 {
+                    "id": "13s",
                     "before": "VNC",
                     "after": "VːC[+voiced] ",
                     "env": "",
-                    "src": [
-                        "0"
-                    ],
-                    "or_auth": "Mecislau",
                     "rel": "unchecked",
-                    "tag": [
-                        ""
-                    ],
+                    "tag": [""],
                     "note": [
                         ""
-                    ]
-
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
                 }
+
                                 
             ]
         }
