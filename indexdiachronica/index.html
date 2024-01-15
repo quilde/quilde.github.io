@@ -48,17 +48,19 @@ async function logJSON() {
   ${rule.before} → ${rule.after} ${rule.env ? '/ ' + rule.env : ''} \r\n
    
 `;
-  var card = document.createElement("p");
-  card.innerHTML = `${data.changesets[0].metadata.parent} to ${data.changesets[0].metadata.child}:  `;
-  document.querySelector('#renderedRule').appendChild(card);
+  
+  
   console.log(data.changesets[0].changeset.length);
   for(let j = 0; j< data.changesets.length; j++) {
-  for (let i = 0; i < data.changesets[j].changeset.length; i++) {
-    var card = document.createElement("p");
-    let rule = data.changesets[j].changeset[i];
-    card.innerHTML = `${rule.before} → ${rule.after} ${rule.env ? '/ ' + rule.env : ''}     reliability: ${rule.rel}`;
-    console.log(data.changesets[j].changeset[i]);
-    document.querySelector('#renderedRule').appendChild(card);
+      var card = document.createElement("h2");
+        card.innerHTML = `${data.changesets[j].metadata.parent} to ${data.changesets[j].metadata.child}:  `;
+        document.querySelector('#renderedRule').appendChild(card);
+        for (let i = 0; i < data.changesets[j].changeset.length; i++) {
+            var card = document.createElement("p");
+            let rule = data.changesets[j].changeset[i];
+            card.innerHTML = `${rule.before} → ${rule.after} ${rule.env ? '/ ' + rule.env : ''}     reliability: ${rule.rel}`;
+            console.log(data.changesets[j].changeset[i]);
+            document.querySelector('#renderedRule').appendChild(card);
   }
   }
   
