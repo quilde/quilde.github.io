@@ -71,7 +71,7 @@ async function logJSON() {
         for (let i = 0; i < data.changesets[j].changeset.length; i++) {
             var card = document.createElement("p");
             let rule = data.changesets[j].changeset[i];
-            card.innerHTML = `${rule.before} → ${rule.after} ${rule.env ? '/ ' + rule.env : ''} `;
+            card.innerHTML = `${rule.before} → ${rule.after} ${rule.env ? '/ ' + rule.env : ''} ${rule.note[0]}`;
             console.log(data.changesets[j].changeset[i]);
             document.querySelector('#renderedRule').appendChild(card);
   }
