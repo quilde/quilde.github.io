@@ -3416,7 +3416,7 @@
                     "rel": "unchecked",
                     "tag": [""],
                     "note": [
-                        "note: \“(This last rule turned all VC roots into CV)\”"
+                        "note This last rule turned all VC roots into CV"
                     ],
                     "type": "",
                     "subtype": "",
@@ -3614,7 +3614,7 @@
                     "rel": "unchecked",
                     "tag": [""],
                     "note": [
-                        "env \"\“when another sibilant is in the word nearby\” and (word-finally?) when \“noun-stem final\"\”"
+                        "env when another sibilant is in the word nearby and (word-finally?) when noun-stem final"
                     ],
                     "type": "",
                     "subtype": "",
@@ -3642,7 +3642,7 @@
                     "rel": "unchecked",
                     "tag": [""],
                     "note": [
-                        "env \“in nominals\”"
+                        "env in nominals"
                     ],
                     "type": "",
                     "subtype": "",
