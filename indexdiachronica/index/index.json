@@ -2687,11 +2687,972 @@
                     "subtype": "",
                     "name": "",
                     "link": [""]
+                }
+                
+            ]
+        },
+
+        {
+            "metadata": {
+                "parent": "Proto-Afro-Asiatic", 
+                "child": "Proto-Erythrean",
+                "or_contr": "Mecislau",
+                "source": "0",
+                "note": [
+                    "seems incomplete?"
+                ]
+            },
+            "changeset": [
+                {
+                    "before": "tʃ",
+                    "after": "ts",
+                    "env": "",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
                 },
                 {
-                    "before": "",
-                    "after": "",
-                    "env": "V_ ",
+                    "before": "dʒ",
+                    "after": "dz",
+                    "env": "",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                }
+                
+            ]
+        },
+
+        {
+            "metadata": {
+                "parent": "Proto-Erythrean", 
+                "child": "Proto-Cushitic",
+                "or_contr": "Mecislau",
+                "source": "0",
+                "note": [
+                    ""
+                ]
+            },
+            "changeset": [
+                {
+                    "before": "b",
+                    "after": "m",
+                    "env": "#_Vn",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "ɡ",
+                    "after": "k",
+                    "env": "#{d,w}V_",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "ɣ",
+                    "after": "ɡ",
+                    "env": "#_Vx$ ",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                }
+                
+            ]
+        },
+
+        {
+            "metadata": {
+                "parent": "Proto-Agaw", 
+                "child": "Awngi",
+                "or_contr": "Pogostick Man",
+                "source": "1",
+                "note": [
+                    "NB: Does not include vowel developments."
+                ]
+            },
+            "changeset": [
+                {
+                    "before": "{x,ɢ}(ʷ)",
+                    "after": "∅",
+                    "env": "{#_,_#}",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        "note: \"at word boundaries\" tentatively translated into symbols"
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "z",
+                    "after": "ɡ",
+                    "env": "",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "dz",
+                    "after": "{z,dz}",
+                    "env": "",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "ɡ",
+                    "after": "ɡ(ʷ)",
+                    "env": "",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "{x,ɢ}(ʷ)",
+                    "after": "ɣ(ʷ)",
+                    "env": "",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "kʼ",
+                    "after": "{ɣ,q}",
+                    "env": "",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "kʷʼ",
+                    "after": "ɣʷ",
+                    "env": "",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "ʔ",
+                    "after": "∅",
+                    "env": "",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                }
+                
+            ]
+        },
+
+        {
+            "metadata": {
+                "parent": "Proto-Agaw", 
+                "child": "Blin",
+                "or_contr": "Pogostick Man",
+                "source": "1",
+                "note": [
+                    "NB: Does not include vowel developments."
+                ]
+            },
+            "changeset": [
+                {
+                    "before": "{x,ɢ}(ʷ)",
+                    "after": "∅",
+                    "env": "{#_,_#}",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        "note: \"at word boundaries\" tentatively translated into symbols"
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "ɢ(ʷ)",
+                    "after": "x(ʷ)",
+                    "env": "",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        "else"
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "{ts,tʃ}",
+                    "after": "ʃ",
+                    "env": "",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "z",
+                    "after": "d",
+                    "env": "",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "dz",
+                    "after": "dʒ",
+                    "env": "",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "t",
+                    "after": "r",
+                    "env": "",
+                    "rel": "unchecked",
+                    "tag": ["p"],
+                    "note": [
+                        "env \"medially\"
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                }
+                
+            ]
+        },
+
+        {
+            "metadata": {
+                "parent": "Proto-Agaw", 
+                "child": "Kemantney",
+                "or_contr": "Pogostick Man",
+                "source": "1",
+                "note": [
+                    "NB: Does not include vowel developments."
+                ]
+            },
+            "changeset": [
+                {
+                    "before": "{x,ɢ}(ʷ)",
+                    "after": "∅",
+                    "env": "{#_,_#}",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        "note: \"at word boundaries\" tentatively translated into symbols"
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "x",
+                    "after": "∅",
+                    "env": "",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "xʷ",
+                    "after": "w",
+                    "env": "",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "ɢʷ",
+                    "after": "ɣʷ",
+                    "env": "",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "{ts,tʃ}",
+                    "after": "ʃ",
+                    "env": "",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "dz",
+                    "after": "dʒ",
+                    "env": "",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "t",
+                    "after": "j",
+                    "env": "",
+                    "rel": "unchecked",
+                    "tag": ["p"],
+                    "note": [
+                        "mediallyy"
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "kʼ",
+                    "after": "χʷ",
+                    "env": "#_",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "kʷʼ",
+                    "after": "χʷ",
+                    "env": "",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "ʔ",
+                    "after": "∅",
+                    "env": "",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                }
+                
+            ]
+        },
+
+        {
+            "metadata": {
+                "parent": "Proto-Agaw", 
+                "child": "Xamtanga",
+                "or_contr": "Pogostick Man",
+                "source": "1",
+                "note": [
+                    "NB: Does not include vowel developments."
+                ]
+            },
+            "changeset": [
+                {
+                    "before": "{x,ɢ}",
+                    "after": "∅",
+                    "env": "",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "{xʷ,ɢʷ}",
+                    "after": "∅",
+                    "env": "{#_,_#}",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        "note: \"at word boundaries\" tentatively translated into symbols"
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "{xʷ,ɢʷ}",
+                    "after": "w",
+                    "env": "else",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "ts",
+                    "after": "sʼ",
+                    "env": "",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "tʃ",
+                    "after": "tʃʼ",
+                    "env": "",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "dz",
+                    "after": "z",
+                    "env": "",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "k",
+                    "after": "{k(ʼ),q}",
+                    "env": "",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "kʼ",
+                    "after": "{χʷ,qʷ}",
+                    "env": "#_",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "kʼ",
+                    "after": "q",
+                    "env": "else",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "ʔ",
+                    "after": "∅",
+                    "env": "",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                }
+                
+            ]
+        },
+
+        {
+            "metadata": {
+                "parent": "Proto-Erythrean", 
+                "child": "Proto-North Erythrean",
+                "or_contr": "Mecislau",
+                "source": "0",
+                "note": [
+                    ""
+                ]
+            },
+            "changeset": [
+                {
+                    "before": "V{j,w}",
+                    "after": "Vː",
+                    "env": "C_C",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "eː",
+                    "after": "i",
+                    "env": "",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "oː",
+                    "after": "u",
+                    "env": "",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "{e,o}",
+                    "after": "a",
+                    "env": "",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "{i,u}",
+                    "after": "ə",
+                    "env": "",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "$VC$",
+                    "after": "$CV$",
+                    "env": "",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        "note: \“(This last rule turned all VC roots into CV)\”"
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "in",
+                    "after": "ŋ",
+                    "env": "#_C ",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                }
+                
+            ]
+        },
+
+        {
+            "metadata": {
+                "parent": "Proto-North Erythrean", 
+                "child": "Proto-Chadic",
+                "or_contr": "Mecislau",
+                "source": "0",
+                "note": [
+                    ""
+                ]
+            },
+            "changeset": [
+                {
+                    "before": "aː",
+                    "after": "a",
+                    "env": "",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "ħ",
+                    "after": "h",
+                    "env": "",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "ʕ",
+                    "after": "ʔ",
+                    "env": "",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "ts",
+                    "after": "s",
+                    "env": "",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "dz",
+                    "after": "z",
+                    "env": "",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "{t,ts}ʼ",
+                    "after": "sʼ",
+                    "env": "",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "tʃʼ",
+                    "after": "ʃʼ",
+                    "env": "",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "ŋ",
+                    "after": "∅",
+                    "env": "V_{ts,q} ",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                }
+                
+            ]
+        },
+
+        {
+            "metadata": {
+                "parent": "Proto-North Erythrean", 
+                "child": "Proto-Boreafrasian",
+                "or_contr": "Mecislau",
+                "source": "0",
+                "note": [
+                    ""
+                ]
+            },
+            "changeset": [
+                {
+                    "before": "sʼ",
+                    "after": "s",
+                    "env": "",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "h",
+                    "after": "ħ",
+                    "env": "#_Vs",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "z",
+                    "after": "d",
+                    "env": "",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        "env \"\“when another sibilant is in the word nearby\” and (word-finally?) when \“noun-stem final\"\”"
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "{ɲ,ŋw}",
+                    "after": "n",
+                    "env": "",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "V",
+                    "after": "∅",
+                    "env": "_# ",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        "env \“in nominals\”"
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "ŋ",
+                    "after": "∅",
+                    "env": "#_CV ",
                     "rel": "unchecked",
                     "tag": [""],
                     "note": [
@@ -2705,6 +3666,8 @@
                 
             ]
         }
+
+        
         
         
     ]
