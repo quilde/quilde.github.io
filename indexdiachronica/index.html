@@ -58,7 +58,7 @@ async function logJSON() {
   
   
   console.log(data.changesets.length);
-  for(let j = 0; j< data.changesets.length + 1; j++) {
+  for(let j = 0; j< data.changesets.length; j++) {
       var card = document.createElement("h2");
         card.innerHTML = `${data.changesets[j].metadata.parent} to ${data.changesets[j].metadata.child}:  `;
         document.querySelector('#renderedRule').appendChild(card);
