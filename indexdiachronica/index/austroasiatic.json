@@ -1,0 +1,279 @@
+{
+    "changesets": [
+        {
+            "metadata": {
+                "parent": "Proto-Vietic", 
+                "child": "Muong Khen",
+                "or_contr": "Pogostick Man",
+                "source": "0",
+                "note": [
+                    "TODO tricky tonogenesis rules"
+                ]
+            },
+            "changeset": [
+                {
+                    "before": "s",
+                    "after": "h",
+                    "env": "",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "cʰ",
+                    "after": "s",
+                    "env": "",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "tʰ",
+                    "after": "h",
+                    "env": "",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        "(Only seems to have occurred with first-register tones)"
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "{kʰ,ɡʱ}",
+                    "after": "x",
+                    "env": "",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        "(Presyllables don’t seem to have affected this much)"
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "m",
+                    "after": "b",
+                    "env": "",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "n",
+                    "after": "d",
+                    "env": "",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "{pj,bj}",
+                    "after": "b",
+                    "env": "",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "{tj,dj}",
+                    "after": "d",
+                    "env": "",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "{cj,ɟj}",
+                    "after": "j",
+                    "env": "",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "ɓ",
+                    "after": "b",
+                    "env": "",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "ɗ",
+                    "after": "d",
+                    "env": "",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "{n̥j,nj,ɲ̊j,ɲj}",
+                    "after": "ɲ",
+                    "env": "j",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "N[-voiced]",
+                    "after": "N[+voiced]",
+                    "env": "",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "W[-voiced]",
+                    "after": "W[+voiced]",
+                    "env": "",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "(h)ə{p,b}",
+                    "after": "t",
+                    "env": " _l",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "m",
+                    "after": "∅",
+                    "env": " _l",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "tɹ",
+                    "after": "tʰ",
+                    "env": "",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "w",
+                    "after": "∅",
+                    "env": " tʰV_k",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        "(conjectured)", "Miscellanea"
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                }
+                                                                
+            ]
+        },
+
+        
+        
+
+
+        
+        
+        
+    ]
+        
+}
