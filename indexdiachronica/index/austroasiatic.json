@@ -870,7 +870,430 @@
                     "subtype": "",
                     "name": "",
                     "link": [""]
+                },
+                {
+                    "before": "ɨ",
+                    "after": "i",
+                    "env": " _(ə)w",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "ɛ",
+                    "after": "a",
+                    "env": " _C[+palatal] ",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "w",
+                    "after": "∅",
+                    "env": " tV_wk",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        "(conjectured)"
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
                 }
+                                
+                
+            ]
+        },
+
+        {
+            "metadata": {
+                "parent": "Middle Vietnamese", 
+                "child": "Saigon Vietnamese",
+                "or_contr": "Pogostick Man",
+                "source": "3",
+                "note": [
+                    "(short /a/ only) -> a[+short]"
+                ]
+            },
+            "changeset": [
+                {
+                    "before": "pʰ",
+                    "after": "f",
+                    "env": "",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "kʰ",
+                    "after": "x (only seems to have occurred with first-register",
+                    "env": "tones)",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "{β,w}",
+                    "after": "bj~vj~v",
+                    "env": "",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "{bl,tl}",
+                    "after": "ʈ",
+                    "env": "(?)",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "dʲ",
+                    "after": "z",
+                    "env": "",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "ɟ",
+                    "after": "j",
+                    "env": "",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "m",
+                    "after": "∅",
+                    "env": " _l",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "Ω",
+                    "after": "ʂ",
+                    "env": "",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "cʰ",
+                    "after": "ʈʂ",
+                    "env": "",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "ɹ",
+                    "after": "ʐ (sometimes?)",
+                    "env": "",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "c",
+                    "after": "t",
+                    "env": " a[+short]_ ",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "ɲ",
+                    "after": "n",
+                    "env": " a[+short]_ ",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "t",
+                    "after": "k",
+                    "env": " a[+short]_ ",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "n",
+                    "after": "ŋ",
+                    "env": " a[+short]_ ",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "c",
+                    "after": "t",
+                    "env": " {i,e}_",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "ɲ",
+                    "after": "n",
+                    "env": " {i,e}_",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "{c,ɲ}",
+                    "after": "∅",
+                    "env": " else ",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "ə",
+                    "after": "∅",
+                    "env": " {i,ɨ}_{p,m.w}",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "ə",
+                    "after": "∅",
+                    "env": " ɨ_j",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "ə",
+                    "after": "∅",
+                    "env": " u_{m,j}",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "",
+                    "after": "The contrast between short",
+                    "env": "a/ and short /ə/ is neutralized when _w{k,ŋ}",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "a",
+                    "after": "aː",
+                    "env": " _{w,j}",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "ə(ː)",
+                    "after": "ɨ",
+                    "env": " _K",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "ɛ",
+                    "after": "ɛə",
+                    "env": " _K",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "ɛ",
+                    "after": "a",
+                    "env": " _C[+palatal] ",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+                {
+                    "before": "w",
+                    "after": "∅",
+                    "env": " tV_wk (conjectured) ",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                }
+                                
                 
             ]
         }
