@@ -2,19 +2,33 @@
     "changesets": [
         {
             "metadata": {
-                "parent": "Proto-Algonquian", 
-                "child": "Kennebec River Abenaki",
-                "or_contr": "Pogostick Man with acknowledgment to dhok",
+                "parent": "Proto-Austronesian", 
+                "child": "Proto-Malayo-Polynesian",
+                "or_contr": "Pogostick Man",
                 "source": "0",
                 "note": [
                     ""
                 ]
             },
             "changeset": [
-                {
-                    "before": "ʔ",
+               {
+                    "before": "e",
+                    "after": "a",
+                    "env": " _s",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+               {
+                    "before": "s",
                     "after": "h",
-                    "env": " _l",
+                    "env": "",
                     "rel": "unchecked",
                     "tag": [""],
                     "note": [
@@ -25,317 +39,23 @@
                     "name": "",
                     "link": [""]
                 },
-                {
-                    "before": "l",
+               {
+                    "before": "ts",
+                    "after": "t",
+                    "env": "",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+               {
+                    "before": "lʲ",
                     "after": "n",
-                    "env": " #_",
-                    "rel": "unchecked",
-                    "tag": [""],
-                    "note": [
-                        ""
-                    ],
-                    "type": "",
-                    "subtype": "",
-                    "name": "",
-                    "link": [""]
-                },
-                {
-                    "before": "N",
-                    "after": "∅",
-                    "env": " _O",
-                    "rel": "unchecked",
-                    "tag": [""],
-                    "note": [
-                        ""
-                    ],
-                    "type": "",
-                    "subtype": "",
-                    "name": "",
-                    "link": [""]
-                },
-                {
-                    "before": "aː",
-                    "after": "a",
-                    "env": " _OO",
-                    "rel": "unchecked",
-                    "tag": [""],
-                    "note": [
-                        ""
-                    ],
-                    "type": "",
-                    "subtype": "",
-                    "name": "",
-                    "link": [""]
-                },
-                {
-                    "before": "a",
-                    "after": "e",
-                    "env": " #C_OO",
-                    "rel": "unchecked",
-                    "tag": [""],
-                    "note": [
-                        ""
-                    ],
-                    "type": "",
-                    "subtype": "",
-                    "name": "",
-                    "link": [""]
-                },
-                {
-                    "before": "a",
-                    "after": "∅",
-                    "env": " #_OO",
-                    "rel": "unchecked",
-                    "tag": [""],
-                    "note": [
-                        ""
-                    ],
-                    "type": "",
-                    "subtype": "",
-                    "name": "",
-                    "link": [""]
-                },
-                {
-                    "before": "V",
-                    "after": "∅",
-                    "env": " _#",
-                    "rel": "unchecked",
-                    "tag": [""],
-                    "note": [
-                        ""
-                    ],
-                    "type": "",
-                    "subtype": "",
-                    "name": "",
-                    "link": [""]
-                },
-                {
-                    "before": "iw",
-                    "after": "o",
-                    "env": " _#",
-                    "rel": "unchecked",
-                    "tag": [""],
-                    "note": [
-                        ""
-                    ],
-                    "type": "",
-                    "subtype": "",
-                    "name": "",
-                    "link": [""]
-                },
-                {
-                    "before": "w",
-                    "after": "∅",
-                    "env": " _# ! k(ː)_",
-                    "rel": "unchecked",
-                    "tag": [""],
-                    "note": [
-                        ""
-                    ],
-                    "type": "",
-                    "subtype": "",
-                    "name": "",
-                    "link": [""]
-                },
-                {
-                    "before": "j",
-                    "after": "∅",
-                    "env": " _# ! P_",
-                    "rel": "unchecked",
-                    "tag": [""],
-                    "note": [
-                        ""
-                    ],
-                    "type": "",
-                    "subtype": "",
-                    "name": "",
-                    "link": [""]
-                },
-                {
-                    "before": "w",
-                    "after": "∅",
-                    "env": " C_ ! C = K",
-                    "rel": "unchecked",
-                    "tag": [""],
-                    "note": [
-                        ""
-                    ],
-                    "type": "",
-                    "subtype": "",
-                    "name": "",
-                    "link": [""]
-                },
-                {
-                    "before": "j",
-                    "after": "∅",
-                    "env": " _C",
-                    "rel": "unchecked",
-                    "tag": [""],
-                    "note": [
-                        ""
-                    ],
-                    "type": "",
-                    "subtype": "",
-                    "name": "",
-                    "link": [""]
-                },
-                {
-                    "before": "i",
-                    "after": "∅",
-                    "env": " #w_",
-                    "rel": "unchecked",
-                    "tag": [""],
-                    "note": [
-                        ""
-                    ],
-                    "type": "",
-                    "subtype": "",
-                    "name": "",
-                    "link": [""]
-                },
-                {
-                    "before": "θ",
-                    "after": "n",
-                    "env": " #_",
-                    "rel": "unchecked",
-                    "tag": [""],
-                    "note": [
-                        ""
-                    ],
-                    "type": "",
-                    "subtype": "",
-                    "name": "",
-                    "link": [""]
-                },
-                {
-                    "before": "θ",
-                    "after": "s",
-                    "env": " _k",
-                    "rel": "unchecked",
-                    "tag": [""],
-                    "note": [
-                        ""
-                    ],
-                    "type": "",
-                    "subtype": "",
-                    "name": "",
-                    "link": [""]
-                },
-                {
-                    "before": "ʃ",
-                    "after": "s",
-                    "env": "",
-                    "rel": "unchecked",
-                    "tag": [""],
-                    "note": [
-                        ""
-                    ],
-                    "type": "",
-                    "subtype": "",
-                    "name": "",
-                    "link": [""]
-                },
-                {
-                    "before": "tʃ",
-                    "after": "ts",
-                    "env": "",
-                    "rel": "unchecked",
-                    "tag": [""],
-                    "note": [
-                        ""
-                    ],
-                    "type": "",
-                    "subtype": "",
-                    "name": "",
-                    "link": [""]
-                },
-                {
-                    "before": "sk",
-                    "after": "kː",
-                    "env": " ! _a",
-                    "rel": "unchecked",
-                    "tag": [""],
-                    "note": [
-                        ""
-                    ],
-                    "type": "",
-                    "subtype": "",
-                    "name": "",
-                    "link": [""]
-                },
-                {
-                    "before": "ʔs",
-                    "after": "sː",
-                    "env": "",
-                    "rel": "unchecked",
-                    "tag": [""],
-                    "note": [
-                        ""
-                    ],
-                    "type": "",
-                    "subtype": "",
-                    "name": "",
-                    "link": [""]
-                },
-                {
-                    "before": "ʔts",
-                    "after": "tsː",
-                    "env": "",
-                    "rel": "unchecked",
-                    "tag": [""],
-                    "note": [
-                        ""
-                    ],
-                    "type": "",
-                    "subtype": "",
-                    "name": "",
-                    "link": [""]
-                },
-                {
-                    "before": "oː",
-                    "after": "o",
-                    "env": "",
-                    "rel": "unchecked",
-                    "tag": [""],
-                    "note": [
-                        ""
-                    ],
-                    "type": "",
-                    "subtype": "",
-                    "name": "",
-                    "link": [""]
-                },
-                {
-                    "before": "aː",
-                    "after": "ɔ̃",
-                    "env": "",
-                    "rel": "unchecked",
-                    "tag": [""],
-                    "note": [
-                        ""
-                    ],
-                    "type": "",
-                    "subtype": "",
-                    "name": "",
-                    "link": [""]
-                },
-                {
-                    "before": "eː",
-                    "after": "a",
-                    "env": "",
-                    "rel": "unchecked",
-                    "tag": [""],
-                    "note": [
-                        ""
-                    ],
-                    "type": "",
-                    "subtype": "",
-                    "name": "",
-                    "link": [""]
-                },
-                {
-                    "before": "iː",
-                    "after": "i",
                     "env": "",
                     "rel": "unchecked",
                     "tag": [""],
@@ -347,11 +67,177 @@
                     "name": "",
                     "link": [""]
                 }
-                                                
+                
+            ]
+        },
+        {
+            "metadata": {
+                "parent": "Proto-Malayo-Polynesian", 
+                "child": "Proto-Bali-Sasak-Sumbawan",
+                "or_contr": "TinyMusic",
+                "source": "1",
+                "note": [
+                    ""
+                ]
+            },
+            "changeset": [
+               {
+                    "before": "j",
+                    "after": "{d,t}",
+                    "env": "",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        "#_"
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+               {
+                    "before": "w",
+                    "after": "∅",
+                    "env": "",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        "#_"
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+               {
+                    "before": "q",
+                    "after": "h",
+                    "env": "",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        "_#"
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+               {
+                    "before": "iw",
+                    "after": "{i,?}",
+                    "env": "",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        "_#"
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+               {
+                    "before": "uj",
+                    "after": "i",
+                    "env": "",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        "_#"
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+               {
+                    "before": "aj",
+                    "after": "ej",
+                    "env": " _# ;",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        "A:"
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+               {
+                    "before": "aw",
+                    "after": "ow",
+                    "env": " _# ;",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        "A:"
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+               {
+                    "before": "aj",
+                    "after": "e",
+                    "env": " _# ;",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        "B:"
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+               {
+                    "before": "aw",
+                    "after": "ow",
+                    "env": " _# ;",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        "B:"
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+               {
+                    "before": "C[+voice]",
+                    "after": "C[-voice]",
+                    "env": "",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        "_#"
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+               {
+                    "before": "HəS",
+                    "after": "(h)ə(N)S",
+                    "env": " #_",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        ""
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                }
+                
             ]
         }
-        
-
 
         
         
