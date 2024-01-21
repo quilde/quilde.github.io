@@ -237,6 +237,118 @@
                 }
                 
             ]
+        },
+        {
+            "metadata": {
+                "parent": "Proto-Bali-Sasak-Sumbawan", 
+                "child": "Balinese",
+                "or_contr": "TinyMusic",
+                "source": "2",
+                "note": [
+                    ""
+                ]
+            },
+            "changeset": [
+               {
+                    "before": "r",
+                    "after": "{r,h} →",
+                    "env": "{∅,h}",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        "$5"
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+               {
+                    "before": "h",
+                    "after": "{∅,h}",
+                    "env": "",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        "$5"
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+               {
+                    "before": "w",
+                    "after": "b",
+                    "env": " i_#",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        "$5"
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+               {
+                    "before": "ej",
+                    "after": "i",
+                    "env": "",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        "$5"
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+               {
+                    "before": "ow",
+                    "after": "u",
+                    "env": "",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        "$5"
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+               {
+                    "before": " ",
+                    "after": "",
+                    "env": " ; “ə assimilated to the following vowel after the loss of *-r-”",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        "$5"
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                },
+               {
+                    "before": "a",
+                    "after": "ə",
+                    "env": "",
+                    "rel": "unchecked",
+                    "tag": [""],
+                    "note": [
+                        "$5"
+                    ],
+                    "type": "",
+                    "subtype": "",
+                    "name": "",
+                    "link": [""]
+                }
+                
+            ]
         }
 
         
