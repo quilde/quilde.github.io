@@ -48,7 +48,7 @@ async function logJSON() {
   const movies = await response.json();
   console.log(movies);
   return movies;*/
-  const response = await fetch("https://quilde.github.io/indexdiachronica/index/afroasiatic.json");
+  const response = await fetch("https://quilde.github.io/indexdiachronica/index2/afroasiatic.json");
   const data = await response.json();
   console.log(data);
   const renderRules = rule => `
@@ -63,16 +63,16 @@ async function logJSON() {
   console.log(data.changesets.length);
   for(let j = 0; j< data.changesets.length; j++) {
         var card = document.createElement("h2");
-        card.innerHTML = `${data.changesets[j].metadata.parent} to ${data.changesets[j].metadata.child}  (${data.changesets[j].metadata.or_contr})  `;
+        card.innerHTML = `${data.changesets[j].from} to ${data.changesets[j].to}  (${data.changesets[j].or_contr})  `;
         document.querySelector('#renderedRule').appendChild(card);
         var note = document.createElement("blockquote");
-        note.innerHTML = `${data.changesets[j].metadata.note.map(renderNotes) }  `;
+        note.innerHTML = `${data.changesets[j].notes.map(renderNotes) }  `;
         document.querySelector('#renderedRule').appendChild(note);
-        for (let i = 0; i < data.changesets[j].changeset.length; i++) {
+        for (let i = 0; i < data.changesets[j].changes.length; i++) {
             var card = document.createElement("p");
-            let rule = data.changesets[j].changeset[i];
-            card.innerHTML = `${rule.before} > ${rule.after} ${rule.env ? '/ ' + rule.env : ''} ${rule.note[0]}`;
-            console.log(data.changesets[j].changeset[i]);
+            let rule = data.change_sets[j].changes[i];
+            card.innerHTML = `${rule.before} > ${rule.after} ${rule.env ? '/ ' + rule.env : ''} ${rule.notes[0]}`;
+            console.log(data.changesets[j].changes[i]);
             document.querySelector('#renderedRule').appendChild(card);
   }
   }
