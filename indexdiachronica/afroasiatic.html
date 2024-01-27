@@ -60,19 +60,19 @@ async function logJSON() {
    
 `;
   
-  console.log(data.changesets.length);
-  for(let j = 0; j< data.changesets.length; j++) {
+  console.log(data.change_sets.length);
+  for(let j = 0; j< data.change_sets.length; j++) {
         var card = document.createElement("h2");
-        card.innerHTML = `${data.changesets[j].from} to ${data.changesets[j].to}  (${data.changesets[j].or_contr})  `;
+        card.innerHTML = `${data.change_sets[j].from} to ${data.change_sets[j].to}  (${data.change_sets[j].or_contr})  `;
         document.querySelector('#renderedRule').appendChild(card);
         var note = document.createElement("blockquote");
-        note.innerHTML = `${data.changesets[j].notes.map(renderNotes) }  `;
+        note.innerHTML = `${data.change_sets[j].notes.map(renderNotes) }  `;
         document.querySelector('#renderedRule').appendChild(note);
-        for (let i = 0; i < data.changesets[j].changes.length; i++) {
+        for (let i = 0; i < data.change_sets[j].changes.length; i++) {
             var card = document.createElement("p");
             let rule = data.change_sets[j].changes[i];
             card.innerHTML = `${rule.before} > ${rule.after} ${rule.env ? '/ ' + rule.env : ''} ${rule.notes[0]}`;
-            console.log(data.changesets[j].changes[i]);
+            console.log(data.change_sets[j].changes[i]);
             document.querySelector('#renderedRule').appendChild(card);
   }
   }
