@@ -12,7 +12,39 @@
   
   <style>
   * {
+      box-sizing: border-box;
+      //font-size: clamp(1.25rem, 1vw + .5rem, 1.5rem);
       font-family: 'Noto Serif';
+      //background-color: #252830; 
+      //color: #9eafd7;
+  }
+
+  
+  #renderedRule {
+
+    padding-left: 50px;
+  }
+  
+  .rule {
+    
+    background-color: white;
+    border-left: 3px solid #FFB700;
+    border-right: 3px solid white;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    
+    border-radius: 0px;
+    margin: 0px;
+    padding: 12px;
+  }
+  .rule:hover {
+    //background-color: #FFB700;
+    border: 3px solid #FFB700;
+
+  }
+  
+  ::selection {
+    background-color: #FFB700;
   }
   
   </style>
@@ -69,13 +101,39 @@ async function logJSON() {
         note.innerHTML = `${data.change_sets[j].notes.map(renderNotes) }  `;
         document.querySelector('#renderedRule').appendChild(note);
         for (let i = 0; i < data.change_sets[j].changes.length; i++) {
-            var card = document.createElement("p");
+            var card = document.createElement("div");
+            card.classList.add("rule");
             let rule = data.change_sets[j].changes[i];
-            card.innerHTML = `${rule.before} > ${rule.after} ${rule.env ? '/ ' + rule.env : ''} ${rule.notes[0]}`;
+            card.innerHTML = `${rule.before} > ${rule.after} ${rule.env ? '/ ' + rule.env : ''} ${rule.notes[0] ? rule.notes[0] : ''}`;
             console.log(data.change_sets[j].changes[i]);
             document.querySelector('#renderedRule').appendChild(card);
+      }
   }
+  
+  const response2 = await fetch("https://quilde.github.io/indexdiachronica/index2/algonquin.json");
+  const data2 = await response2.json();
+  console.log(data);
+  
+
+  
+  console.log(data.change_sets.length);
+  for(let j = 0; j< data.change_sets.length; j++) {
+        var card = document.createElement("h2");
+        card.innerHTML = `${data.change_sets[j].from} to ${data.change_sets[j].to}  (${data.change_sets[j].or_contr})  `;
+        document.querySelector('#renderedRule').appendChild(card);
+        var note = document.createElement("blockquote");
+        note.innerHTML = `${data.change_sets[j].notes.map(renderNotes) }  `;
+        document.querySelector('#renderedRule').appendChild(note);
+        for (let i = 0; i < data.change_sets[j].changes.length; i++) {
+            var card = document.createElement("div");
+            card.classList.add("rule");
+            let rule = data.change_sets[j].changes[i];
+            card.innerHTML = `${rule.before} > ${rule.after} ${rule.env ? '/ ' + rule.env : ''} ${rule.notes[0] ? rule.notes[0] : ''}`;
+            console.log(data.change_sets[j].changes[i]);
+            document.querySelector('#renderedRule').appendChild(card);
+      }
   }
+  
   
 }
 
