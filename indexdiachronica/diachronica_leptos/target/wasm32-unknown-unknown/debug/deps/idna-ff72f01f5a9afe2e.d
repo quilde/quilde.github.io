@@ -1,0 +1,10 @@
+C:\Users\ensel\Documents\nils\Programming\webpage\quilde.github.io\indexdiachronica\diachronica_leptos\target\wasm32-unknown-unknown\debug\deps\libidna-ff72f01f5a9afe2e.rmeta: C:\Users\ensel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\idna-0.5.0\src\lib.rs C:\Users\ensel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\idna-0.5.0\src\punycode.rs C:\Users\ensel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\idna-0.5.0\src\uts46.rs C:\Users\ensel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\idna-0.5.0\src\uts46_mapping_table.rs
+
+C:\Users\ensel\Documents\nils\Programming\webpage\quilde.github.io\indexdiachronica\diachronica_leptos\target\wasm32-unknown-unknown\debug\deps\libidna-ff72f01f5a9afe2e.rlib: C:\Users\ensel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\idna-0.5.0\src\lib.rs C:\Users\ensel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\idna-0.5.0\src\punycode.rs C:\Users\ensel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\idna-0.5.0\src\uts46.rs C:\Users\ensel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\idna-0.5.0\src\uts46_mapping_table.rs
+
+C:\Users\ensel\Documents\nils\Programming\webpage\quilde.github.io\indexdiachronica\diachronica_leptos\target\wasm32-unknown-unknown\debug\deps\idna-ff72f01f5a9afe2e.d: C:\Users\ensel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\idna-0.5.0\src\lib.rs C:\Users\ensel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\idna-0.5.0\src\punycode.rs C:\Users\ensel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\idna-0.5.0\src\uts46.rs C:\Users\ensel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\idna-0.5.0\src\uts46_mapping_table.rs
+
+C:\Users\ensel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\idna-0.5.0\src\lib.rs:
+C:\Users\ensel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\idna-0.5.0\src\punycode.rs:
+C:\Users\ensel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\idna-0.5.0\src\uts46.rs:
+C:\Users\ensel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\idna-0.5.0\src\uts46_mapping_table.rs:

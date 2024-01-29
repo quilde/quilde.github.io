@@ -1,0 +1,1 @@
+C:\Users\ensel\Documents\nils\Programming\webpage\quilde.github.io\indexdiachronica\diachronica_leptos\target\wasm32-unknown-unknown\debug\diachronica_leptos.wasm: C:\Users\ensel\Documents\nils\Programming\webpage\quilde.github.io\indexdiachronica\diachronica_leptos\src\main.rs
