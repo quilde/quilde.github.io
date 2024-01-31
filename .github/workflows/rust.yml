@@ -23,7 +23,7 @@ jobs:
     - name: Upload artifacts
       uses: actions/upload-pages-artifact@v1
       with:
-        path: dist
+        path: indexdiachronica/diachronica_leptos/dist
 
   deploy:
     needs: build
