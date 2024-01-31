@@ -22,6 +22,8 @@ jobs:
       run: cd indexdiachronica/diachronica_leptos && ../.././trunk build --release
     - name: Upload artifacts
       uses: actions/upload-pages-artifact@v2
+      with:
+        path: src
 
 
   deploy:
