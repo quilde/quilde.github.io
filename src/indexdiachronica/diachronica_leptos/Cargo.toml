@@ -11,4 +11,4 @@ serde = { version = "1", features = ["derive"] }
 reqwasm = "0.5"
 pollster = "0.3.0"
 thiserror = "1"
-# wasm-bindgen = "0.2.90"
+wasm-bindgen = "0.2.90"
