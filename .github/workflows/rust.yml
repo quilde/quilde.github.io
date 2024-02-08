@@ -17,7 +17,7 @@ jobs:
     - uses: actions/checkout@v4
     - run: rustup update nightly && rustup default nightly
     - run: rustup target add wasm32-unknown-unknown
-    - run: wget -qO- https://github.com/trunk-rs/trunk/releases/download/v0.18.2/trunk-x86_64-unknown-linux-gnu.tar.gz | tar -xzf-
+    - run: wget -qO- https://github.com/trunk-rs/trunk/releases/download/v0.18.7/trunk-x86_64-unknown-linux-gnu.tar.gz | tar -xzf-
     - name: Build
       run: cd src/indexdiachronica/diachronica_leptos && ../../.././trunk build --release --public-url "${GITHUB_REPOSITORY#*/}"
     - name: Upload artifacts
