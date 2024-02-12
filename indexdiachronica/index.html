@@ -4,6 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <title>Index Diachronica Database</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -30,7 +33,7 @@
     }
 
     .rule {
-
+      font-family: Noto Sans Mono;
       border-left: 3px solid #FFB700;
       border-right: 3px solid #e7ded0;
       border-top: 3px solid #e7ded0;
@@ -148,7 +151,7 @@
           items.map(
             (item) =>
               html` <div class="rule">
-              ${item.before + " > " + item.after + " / " + item.env}
+              ${ `${item.before} > ${item.after} ${item.env ? '/ ' + item.env : ''}` }
               <div>${() =>
                   item.notes.map(
                     (item) =>
