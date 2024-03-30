@@ -1,92 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <title>Index Diachronica Database</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap" rel="stylesheet">
-</head>
-
-<body>
-
-  <h1>(WIP please check back later)</h1>
-  <div id=renderedRule class=render>
-  </div>
-
-  <div id="arrow"></div>
-
-  <style>
-    * {
-      box-sizing: border-box;
-      font-size: clamp(.5rem, .5vw + .5rem, 1.5rem);
-      font-family: 'Noto Serif';
-      background-color: #e7ded0;
-      color: #191308;
-    }
-
-
-    #renderedRule {
-
-      padding-left: 12vw;
-    }
-
-    .rule {
-      font-family: Noto Sans Mono;
-      border-left: 3px solid #FFB700;
-      border-right: 3px solid #e7ded0;
-      border-top: 3px solid #e7ded0;
-      border-bottom: 3px solid #e7ded0;
-
-      border-radius: 0px;
-      margin: 0px;
-      padding: 12px;
-    }
-
-    .rule:hover {
-      background-color: #e7ded0;
-      border: 3px solid #FFB700;
-
-    }
-
-    ::selection {
-      background-color: #FFB700;
-    }
-  </style>
-
-  <script type="module">
+<script type="module">
     import { reactive, html } from 'https://esm.sh/@arrow-js/core';
 
 
     const data = reactive({
       clicks: 0
     });
-
-
-
-    var render = (data) => {
-
-      showRules();
-
-
-
-    }
-
-    render();
-    async function showRules() {
-
-      const renderRules = rule => `
-  ${rule.before} > ${rule.after} ${rule.env ? '/ ' + rule.env : ''} \r\n
-   
-`;
-      const renderNotes = rule => `
-  ${rule} \r\n
-   
-`;
-
-
-
+    
+    document.getElementById('search').addEventListener('change', showRules);
+    
       const response = await fetch("https://quilde.github.io/indexdiachronica/index_json/afroasiatic.json");
       const afroasiatic = await response.json();
 
@@ -99,17 +23,29 @@
       const response4 = await fetch("https://quilde.github.io/indexdiachronica/index_json/austronesian.json");
       const austronesian = await response4.json();
 
+    showRules();
+    async function showRules() {
+      console.log("hi");
+      /*var search = document.getElementById('search').select();
+      
+      search.split(' '); */
+
+    //<button @click="${() => afroasiatic.clicks++}">
+    //Fired ${() => afroasiatic.clicks} arrows
+    //</button>
+      let search = document.getElementById('search').value;
+      
+     document.getElementById('arrow').innerHTML = "";
       html`
-  <button @click="${() => afroasiatic.clicks++}">
-    Fired ${() => afroasiatic.clicks} arrows
+  
     
-  </button>
-  <div>${render_all([afroasiatic, algonquin, austroasiatic, austronesian])}</div>
+  
+  <div>${render_all([afroasiatic, algonquin, austroasiatic, austronesian], search)}</div>
 `(document.getElementById('arrow'))
 
     }
 
-    function render_all(items) {
+    function render_all(items, search) {
       return html` 
       <div>
         ${() =>
@@ -128,7 +64,7 @@
                         ${item.from + " > " + item.to }
                         </h3>
                       <div>
-                      ${render_changeset(item.changes)}
+                      ${render_changeset(item.changes, search)}
                       </div>`
                   )
                 }</div>
@@ -141,14 +77,16 @@
     }
 
 
-    function render_changeset(items) {
+    function render_changeset(items, search) {
       return html` <div
     class="rules"
     
   >
-    <ul class="dropdown-list" >
+    <div class="dropdown-list" >
       ${() =>
-          items.map(
+          items.filter(
+                    (item) => search ? item.before == search : true
+                  ).map(
             (item) =>
               html` <div class="rule">
               ${ `${item.before} > ${item.after} ${item.env ? '/ ' + item.env : ''}` }
@@ -162,11 +100,91 @@
                 }</div>
             </div>`
           )}
-    </ul>
+    </div>
   </div>`
     }
 
+
   </script>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Index Diachronica Database</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <h1>(WIP please check back later)</h1>
+  
+  
+  <input type="search" id="search" aria-label="search" role="searchbox" placeholder="search"  name="q"></input>
+  <div id="arrow">
+    
+  </div>
+
+  <style>
+    :root {
+      font-size: clamp(.8rem, 1vw + .8rem, 1rem);
+      /*font-size: calc(1vw + .8rem);*/
+      font-family: 'Noto Serif';
+      background-color: #e7ded0;
+      color: #191308;
+    }
+    * {
+      box-sizing: border-box;
+      
+
+    }
+
+    #renderedRule {
+
+      margin-left: 12vw;
+    }
+
+    .rule {
+      font-family: Noto Sans Mono;
+      border-left: 3px solid #FFB700;
+      border-right: 3px solid #e7ded0;
+      border-top: 3px solid #e7ded0;
+      border-bottom: 3px solid #e7ded0;
+
+      
+      /*margin: 12px;*/
+      padding: 12px;
+    }
+
+    .rule:hover {
+      background-color: #e7ded0;
+      border: 3px solid #FFB700;
+
+    }
+
+    ::selection {
+      background-color: #FFB700;
+    }
+    
+    .rules {
+      
+      overflow: auto;
+    }
+    
+    #search {
+      width: 100%;
+      height: 50px;
+      position: sticky;
+      background-color: #e7ded0;
+      border: 3px solid #FFB700;
+      border-radius: 15px;
+      padding: 20px;
+      top: 20px;
+      font-family: Noto Sans Mono;
+    }
+  </style>
+
+  
 </body>
 
 </html>
