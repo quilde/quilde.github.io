@@ -1,0 +1,19 @@
+.rules {
+      
+    overflow: auto;
+  }
+  
+  #search {
+    width: 100%;
+    height: 50px;
+    position: sticky;
+    border: 3px solid var(--background-dark-elevated);
+    border-radius: 15px;
+    padding: 20px;
+    top: 20px;
+    font-family: Noto Sans Mono;
+  }
+  
+  code {
+    font-family: Noto Sans Mono;
+  }

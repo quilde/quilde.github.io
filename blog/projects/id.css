@@ -1,0 +1,185 @@
+/* RESET*/
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+
+body {
+    min-height: 100svh;
+    padding: 4.5rem;
+}
+
+html {
+    hanging-punctuation: first last;
+    color-scheme: dark light;
+}
+
+img,picture,svg,video {
+    display: block;
+    max-width: 100%;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    text-wrap: balance;
+}
+
+p{
+    max-width: 75ch;
+    text-wrap: pretty;
+    margin-bottom: 1rem;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    :has(:target) {
+        scroll-behavior: smooth;
+        scroll-padding-top: 3rem;
+    }
+}
+
+
+
+:root {
+    font-optical-sizing: auto;
+    font-family: "Outfit";
+    color: var(--foreground-dark);
+    background-color: var(--background-dark);
+    font-size: 1.5rem;
+    --background-dark: oklch(27% 0.01 94);
+    --foreground-dark: oklch(80% 0.03 94);
+    --background-dark-elevated: oklch(30% 0.01 94);
+    --highlight-dark: oklch(80% 0.143 94);
+    --contrary-dark: oklch(70% 0.148 275);
+}
+
+::selection {
+    background-color: var(--contrary-dark);
+    color: var(--background-dark);
+}
+
+h1 {
+    color: var(--highlight-dark);
+    font-size: 5rem;
+    font-family: "Segoe UI";
+    font-weight: 900;
+    line-height: 0.8;
+    width: 10ch;
+    margin: 1rem 1rem 2rem 3rem ;
+}
+
+#hero {
+    display: inline-flex;
+}
+#searchbar {
+    
+    width: 100%;
+}
+
+#demo {
+    align-self: center;
+}
+
+
+
+@supports (-webkit-text-stroke: 3px black) {
+    h1 {
+        -webkit-text-fill-color: var(--background-dark);
+        -webkit-text-stroke: 3px;
+    }
+    .nooutline {
+        -webkit-text-stroke: none;
+        -webkit-text-fill-color: var(--highlight-dark);
+
+    }
+  }
+
+h2 {
+    color: var(--highlight-dark);
+    font-size: 2rem;
+    /* font-family: "Changa One"; */
+    font-weight: 900;
+}
+
+.oldstyle {
+  font-family: "UnifrakturCook", cursive;
+}
+
+
+
+code {
+    width:fit-content;
+    display:block;
+    margin: .5em;
+    padding: 1rem;
+    background: var(--background-dark-elevated);
+    color: var(--foreground-dark);
+    border-radius: 30px;
+    font-family: "Fira Code";
+    font-size: 0.8rem;
+    font-weight: 480;
+} 
+
+
+
+.hljs {
+    /*display:inline-block;*/
+    width: 75ch;
+    display: block;
+    margin: .5em;
+    padding: 1rem;
+    background: var(--background-dark-elevated);
+    color: var(--foreground-dark);
+    border-radius: 30px;
+    font-family: "Fira Code";
+    font-size: 0.8rem;
+    font-weight: 480;
+  }
+  .hljs-comment,
+  .hljs-quote {
+    color: oklch(60% 0.05 275);
+    font-style: italic;
+  }
+  .hljs-keyword,
+  .hljs-selector-tag {
+    color: var(--contrary-dark);
+  }
+
+  .hljs-name {
+    color: var(--highlight-dark);
+  }
+  .hljs-attribute,
+  .hljs-meta {
+    color: oklch(70% 0.148 295);
+  }
+  .hljs-literal,
+  .hljs-number,
+  .hljs-regexp,
+  .hljs-link,
+  .hljs-subst,
+  .hljs-bullet {
+    color: oklch(70% 0.148 295);
+  }
+
+  .hljs-string,
+  .hljs-symbol{
+    color: oklch(70% 0.148 235);
+  }
+  .hljs-title,
+  .hljs-section {
+    color: var(--highlight-dark);
+    font-weight: 600;
+  }
+  .hljs-emphasis {
+    font-style: italic;
+  }
+  .hljs-strong {
+    font-weight: 600;
+  }
+  
+    
