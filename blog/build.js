@@ -8,7 +8,7 @@ const path = require('node:path');
 const marked = require("marked")
 
 const folderPath = './src';
-const outputPath = './blog_output';
+const outputPath = './posts';
 
 fs.readdirSync(folderPath).map(
     filename => {
