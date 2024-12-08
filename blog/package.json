@@ -1,7 +1,12 @@
 {
   "dependencies": {
+    "@octokit/rest": "^21.0.2",
     "gray-matter": "^4.0.3",
+    "highlight.js": "^11.10.0",
     "marked": "^15.0.3",
+    "marked-alert": "^2.1.2",
+    "marked-emoji": "^1.4.3",
+    "marked-highlight": "^2.2.1",
     "xml-js": "^1.6.11"
   }
 }
