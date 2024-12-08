@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap" rel="stylesheet">
-    <script type="module" src="header.js"></script>
+    <script type="module" src="arrow_components.js"></script>
 </head>
 
 <!-- <script>hljs.highlightAll();</script> -->
@@ -22,56 +22,9 @@
 
         <article class="article_content">
             <div id="myheader"></div>
-            <script type="module">
-                import ZeroMd from 'https://cdn.jsdelivr.net/npm/zero-md@3'
-                import markedAlert from 'https://cdn.jsdelivr.net/npm/marked-alert@2/+esm'
-                
-                // Pass marked opts into render() function
-                const options = {
-                    variants: [
-                        {
-                            type: 'danger',
-                            icon: '<i class="mr-2">🚨</i>',
-                            title: 'Oh snap!', // optional
-                            titleClassName: 'text-danger' // optional
-                        }
-                    ]
-                }
-                customElements.define('zero-md', class extends ZeroMd {
-                    async load() {
-                        await super.load({
-                            //markedAlert: () => markedAlert(options)
-                            
-                        })
-                        this.marked.use(markedAlert(options))
-                    }
-                })
-            </script>
-            <zero-md src="index.md">
-                <template>
-                    <link rel="stylesheet" href="../main.css">
-                </template>
-
-                <!-- Write your markdown inside a `<script type="text/markdown">` tag -->
-
-            </zero-md>
             <div id="postlist"></div>
         </article>
     </main>
 
 
 </body>
-
-<!-- <script type="module">
-    import { reactive, html, } from 'https://esm.sh/@arrow-js/core';
-
-    const root = document.getElementById('app');
-
-    const i = (text) => {
-        return html`
-            <i>${text}</i>
-        `
-    }
-    
-    
-</script> -->

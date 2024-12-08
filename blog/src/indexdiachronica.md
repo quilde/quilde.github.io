@@ -1,6 +1,8 @@
 ---
 styles: 
   - id.css
+title: "Indexdiachronica"
+description: foo bar baz
 ---
 
 <div id="myheader"></div>

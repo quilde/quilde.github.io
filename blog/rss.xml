@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>essë studios</title>
+        <link>https://www.quilde.github.io/blog/</link>
+        <description>My blog</description>
+        <category>Programming</category>
+        <category>Art</category>
+        <copyright>2024 esse unless noted otherwise</copyright>
+        <image>
+            <url>https://www.quilde.github.io/Unbenannnt.png</url>
+            <title>essë studios</title>
+            <link>https://www.quilde.github.io/blog/</link>
+        </image>
+        <language>en-us</language>
+        <item>
+            <title>test</title>
+            <description>test</description>
+            <link>https://www.quilde.github.io/blog/test.html</link>
+        </item>
+        <item>
+            <title>Indexdiachronica</title>
+            <description>foo bar baz</description>
+            <link>https://www.quilde.github.io/blog/indexdiachronica.html</link>
+        </item>
+    </channel>
+</rss>

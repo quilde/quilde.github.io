@@ -7,40 +7,102 @@ const path = require('node:path');
 
 const marked = require("marked")
 const matter = require('gray-matter');
+var convert = require('xml-js');
 
 const folderPath = './src';
 const outputPath = './posts';
+const root = "https://www.quilde.github.io/blog/"
 
-fs.readdirSync(folderPath).map(
-    filename => {
-        fs.readFile(path.join(folderPath, filename), 'utf8', (err, data) => {
-            if (err) {
-              console.error(err);
-              return;
-            }
-            console.log(data);
-            build(data, filename)
-          });
+var rssobj = {
+  "_declaration": {
+    "_attributes": { "version": "1.0", "encoding": "utf-8" }
+  },
+  "rss": {
+    "_attributes": { "version": "2.0" },
+    channel: {
+      title: "essë studios",
+      link: root,
+      description: "My blog",
+      category: [
+        "Programming",
+        "Art"
+      ],
+      copyright: "2024 esse unless noted otherwise",
+      image: {
+        url: "https://www.quilde.github.io/Unbenannnt.png",
+        title: "essë studios",
+        link: root,
+      },
+      language: "en-us",
+      item: [
+
+      ]
     }
-)
+  }
+};
 
+buildposts()
+
+
+
+
+function buildposts() {
+
+
+  fs.readdirSync(folderPath).map(
+    filename => {
+      fs.readFile(path.join(folderPath, filename), 'utf8', (err, data) => {
+        if (err) {
+          console.error(err);
+          return;
+        }
+        console.log(data);
+
+
+        build(data, filename)
+
+        console.log(rssobj)
+        var options = { compact: true, ignoreComment: true, spaces: 4 };
+        var rss_xml = convert.js2xml(rssobj, options);
+        console.log(rss_xml)
+        fs.writeFile("./rss.xml", rss_xml, err => {
+          if (err) {
+            console.error(err);
+          } else {
+            // file written successfully
+          }
+        });
+      });
+
+    }
+  )
+
+}
 function build(data, filename) {
-  data = data.replace(/^[\u200B\u200C\u200D\u200E\u200F\uFEFF]/,"")
-  
-  
-  
+  data = data.replace(/^[\u200B\u200C\u200D\u200E\u200F\uFEFF]/, "")
+
   file = matter(data)
-  
+
   console.log(file.data)
   
-  output = htmlhead 
+  
+
+  output = htmlhead
   for (const style in file.data.styles) {
     output += `<link rel="stylesheet" href="` + file.data.styles[style] + `"/>`
   }
   output += htmlheadend
   output += marked.parse(file.content) + htmlend
-  
+
   console.log(output)
+
+
+  rssobj.rss.channel.item.push({
+    title: file.data.title,
+    description: file.data.description,
+    link: root + filename.replace(".md", ".html")
+  })
+
   fs.writeFile(path.join(outputPath, filename.replace(".md", ".html")), output, err => {
     if (err) {
       console.error(err);
