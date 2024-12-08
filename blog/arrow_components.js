@@ -8,7 +8,7 @@ const header =
     html`
         <header>
             <div id="logo">
-                <img src="/quilde.github.io/blog/Unbenannt.png"></img>
+                <img src="/quilde.github.io/Unbenannt.png"></img>
                 <div>essë studios</div>
             </div>
             <nav>
