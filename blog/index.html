@@ -1,72 +1,68 @@
 <!DOCTYPE html>
 <title>Test</title>
+
 <head>
-    <script type="module" src="https://cdn.jsdelivr.net/npm/zero-md@3?register"></script>
+    <!-- <script type="module" src="https://cdn.jsdelivr.net/npm/zero-md@3?register"></script> -->
     <!-- <script src="https://unpkg.com/@highlightjs/cdn-assets@11.9.0/highlight.min.js"></script>
     <script src="https://unpkg.com/@highlightjs/cdn-assets@11.9.0/languages/rust.min.js"></script> -->
-    <link
-        rel="stylesheet"
-        href="../main.css"
-    />
+    <link rel="stylesheet" href="../main.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@200..800&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap" rel="stylesheet">
+    <script type="module" src="header.js"></script>
 </head>
 
 <!-- <script>hljs.highlightAll();</script> -->
 
 <body id="root">
-    
     <main>
-    <zero-md>
-        <template>
-            <link rel="stylesheet" href="../main.css">
-        </template>
-        <!-- Write your markdown inside a `<script type="text/markdown">` tag -->
-        <script type="text/markdown">
-            
-# Blog
-**This** is my [markdown](https://example.com) blog
-\
-\
-![index diachronica badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fquilde.github.io%2Findexdiachronica%2Findex_json%2Fafroasiatic.json&query=%24.change_sets%5B%3A1%5D.to&style=flat-square&logo=json&logoColor=8495f9&label=Index%20Diachronica%20lang%3A
-)
 
-some code: 
-```rust
-fn main() {
-    let an_integer = 1u32;
-    let a_boolean = true;
-    let unit = ();
+        <article class="article_content">
+            <div id="myheader"></div>
+            <script type="module">
+                import ZeroMd from 'https://cdn.jsdelivr.net/npm/zero-md@3'
+                import markedAlert from 'https://cdn.jsdelivr.net/npm/marked-alert@2/+esm'
+                
+                // Pass marked opts into render() function
+                const options = {
+                    variants: [
+                        {
+                            type: 'danger',
+                            icon: '<i class="mr-2">🚨</i>',
+                            title: 'Oh snap!', // optional
+                            titleClassName: 'text-danger' // optional
+                        }
+                    ]
+                }
+                customElements.define('zero-md', class extends ZeroMd {
+                    async load() {
+                        await super.load({
+                            //markedAlert: () => markedAlert(options)
+                            
+                        })
+                        this.marked.use(markedAlert(options))
+                    }
+                })
+            </script>
+            <zero-md src="index.md">
+                <template>
+                    <link rel="stylesheet" href="../main.css">
+                </template>
 
-    // copy `an_integer` into `copied_integer`
-    let copied_integer = an_integer;
+                <!-- Write your markdown inside a `<script type="text/markdown">` tag -->
 
-    println!("An integer: {:?}", copied_integer);
-    println!("A boolean: {:?}", a_boolean);
-    println!("Meet the unit value: {:?}", unit);
+            </zero-md>
+            <div id="postlist"></div>
+        </article>
+    </main>
 
-    // The compiler warns about unused variable bindings; these warnings can
-    // be silenced by prefixing the variable name with an underscore
-    let _unused_variable = 3u32;
-
-    let noisy_unused_variable = 2u32;
-    // FIXME ^ Prefix with an underscore to suppress the warning
-    // Please note that warnings may not be shown in a browser
-}
-```
-# hello 
-Welcome to blog
-        </script>
-      </zero-md>
-</main>
 
 </body>
 
-<script type="module">
+<!-- <script type="module">
     import { reactive, html, } from 'https://esm.sh/@arrow-js/core';
 
     const root = document.getElementById('app');
@@ -78,4 +74,4 @@ Welcome to blog
     }
     
     
-</script>
+</script> -->

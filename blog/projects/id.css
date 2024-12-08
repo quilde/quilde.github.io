@@ -1,58 +1,10 @@
-/* RESET*/
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    font: inherit;
-}
-
-body {
-    min-height: 100svh;
-    padding: 4.5rem;
-}
-
-html {
-    hanging-punctuation: first last;
-    color-scheme: dark light;
-}
-
-img,picture,svg,video {
-    display: block;
-    max-width: 100%;
-}
-
-h1,h2,h3,h4,h5,h6 {
-    text-wrap: balance;
-}
-
-p{
-    max-width: 75ch;
-    text-wrap: pretty;
-    margin-bottom: 1rem;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-    :has(:target) {
-        scroll-behavior: smooth;
-        scroll-padding-top: 3rem;
-    }
-}
 
 
 
 :root {
-    font-optical-sizing: auto;
-    font-family: "Outfit";
     color: var(--foreground-dark);
     background-color: var(--background-dark);
-    font-size: 1.5rem;
-    --background-dark: oklch(27% 0.01 94);
-    --foreground-dark: oklch(80% 0.03 94);
+    
     --background-dark-elevated: oklch(30% 0.01 94);
     --highlight-dark: oklch(80% 0.143 94);
     --contrary-dark: oklch(70% 0.148 275);
@@ -66,19 +18,22 @@ p{
 h1 {
     color: var(--highlight-dark);
     font-size: 5rem;
-    font-family: "Segoe UI";
+    font-family: "Open Sans";
     font-weight: 900;
     line-height: 0.8;
-    width: 10ch;
+    width: 8ch;
     margin: 1rem 1rem 2rem 3rem ;
 }
 
 #hero {
     display: inline-flex;
+    flex-wrap:wrap;
+    
 }
+
 #searchbar {
     
-    width: 100%;
+    width: 10vw;
 }
 
 #demo {
@@ -120,9 +75,10 @@ code {
     background: var(--background-dark-elevated);
     color: var(--foreground-dark);
     border-radius: 30px;
-    font-family: "Fira Code";
+    font-family: "Noto Sans Mono";
     font-size: 0.8rem;
     font-weight: 480;
+    
 } 
 
 

@@ -10,10 +10,24 @@
     border: 3px solid var(--background-dark-elevated);
     border-radius: 15px;
     padding: 20px;
-    top: 20px;
+    top: 110px;
     font-family: Noto Sans Mono;
   }
   
   code {
     font-family: Noto Sans Mono;
+    width: fit-content;
+    display: inline;
+    display: block;
+    margin: .4em;
+    padding: .6rem;
+    background: var(--background-dark-elevated);
+    color: var(--foreground-dark);
+    border-radius: 5px;
+    font-size: 0.8rem;
+    font-weight: 480;
+  } 
+  
+  .github-corner svg {
+    margin-top: 70px;
   }

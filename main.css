@@ -13,7 +13,7 @@
 
 body {
     min-height: 100svh;
-    padding: 4.5rem;
+    /*padding: 4.5rem;*/
 }
 
 html {
@@ -44,10 +44,10 @@ p{
 
 :root {
     font-optical-sizing: auto;
-    font-family: "Outfit";
+    font-family: "Work Sans";
     color: var(--foreground-dark);
     background-color: var(--background-dark);
-    font-size: 1.5rem;
+    font-size: clamp(1rem, 1.8vw, 1.4rem);
     --background-dark: oklch(27% 0.01 275);
     --foreground-dark: oklch(80% 0.03 275);
     --background-dark-elevated: oklch(30% 0.01 275);
@@ -57,43 +57,78 @@ p{
 }
 
 ::selection {
-  color: var(--background-dark);
+  color: var(--background-dark-elevated);
   background-color: var(--highlight-dark);
+  
+}
+
+a {
+  color: var(--contrary-dark);
 }
 
 h1 {
     color: var(--highlight-dark);
     font-size: 3rem;
-    font-family: "Changa One";
-    font-weight: 900;
+    font-family: "Outfit";
+    font-weight: 400;
+
 }
 
-code {
-  width: fit-content;
-  /*display: inline-block;*/
-  display: block;
-  margin: .4em;
-  padding: .6rem;
-  background: var(--background-dark-elevated);
-  color: var(--foreground-dark);
-  border-radius: 15px;
-  font-family: "Fira Code";
-  font-size: 0.8rem;
-  font-weight: 480;
+
+
+.article_content {
+  margin: clamp(2px, 10dvw, 100px);
+
+}
+#logo {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  align-items: center;
+  font-family: Outfit;
+  font-size: 2rem;
+  font-weight: 900;
+}
+#logo img {
+  border-radius: 40%;
+}
+
+#myheader {
+  position: sticky;
+  top: 0px;
+  backdrop-filter: blur(2px);
+
+}
+header {
+  
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content:space-around;
+  padding: .2rem;
+  border-bottom: 5px thick double var(--highlight-dark);
+}
+
+.post {
+  background-color: var(--background-dark-elevated);
+  border-radius: 5px;
+  margin: .2rem;
+  padding: 2rem;
 }
 
 .hljs {
-    /*display:inline-block;*/
-    width: fit-content;
-    display: inline-block;
-    margin: .5em;
-    padding: 1rem;
+    /*display:inline-block;  clamp(10px,30vw, 300px)*/
+    width: clamp(10rem,50vw, 30rem);
+    display:inline-block;
+    
+    margin: 2vw;
+    padding: 1vw;
     background: var(--background-dark-elevated);
     color: var(--foreground-dark);
-    border-radius: 30px;
+    border-radius: 12px;
     font-family: "Fira Code";
     font-size: 0.8rem;
     font-weight: 480;
+    white-space: pre-wrap;
   }
   .hljs-comment,
   .hljs-quote {
@@ -139,13 +174,25 @@ code {
   
   .language-rust::before {
     content: "rust";
-    /* position: relative;
-    bottom: 0px;
-    left: 0px; */
     float: right;
     background-color: var(--background-dark);
     border-radius: 30px;
     padding: 0.4rem;
   }
-  
+  /*
+ .markdown-alert {
+  background-color: var(--background-dark-elevated);
+  border-radius: 20px;
+  padding: 1rem;
+  width: fit-content;
+ }
  
+ .markdown-alert-title {
+  display: grid;
+  grid-template-columns: 1rem 1fr;
+ }
+ 
+ .markdown-alert-title svg{
+  fill: var(--highlight-dark);
+ }
+ */
