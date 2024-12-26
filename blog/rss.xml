@@ -14,14 +14,24 @@
         </image>
         <language>en-us</language>
         <item>
+            <title>Indexdiachronica</title>
+            <description>foo bar baz</description>
+            <link>https://www.quilde.github.io/blog/indexdiachronica.html</link>
+        </item>
+        <item>
+            <title>Building a blog</title>
+            <description>what I used</description>
+            <link>https://www.quilde.github.io/blog/stack.html</link>
+        </item>
+        <item>
             <title>test</title>
             <description>test</description>
             <link>https://www.quilde.github.io/blog/test.html</link>
         </item>
         <item>
-            <title>Indexdiachronica</title>
-            <description>foo bar baz</description>
-            <link>https://www.quilde.github.io/blog/indexdiachronica.html</link>
+            <title>YOLO lol sigma skibbidi</title>
+            <description>ohio riizhzzzz</description>
+            <link>https://www.quilde.github.io/blog/gfs.html</link>
         </item>
     </channel>
 </rss>

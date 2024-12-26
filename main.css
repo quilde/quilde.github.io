@@ -13,7 +13,8 @@
 
 body {
     min-height: 100svh;
-    /*padding: 4.5rem;*/
+    padding: 4.5rem;
+    
 }
 
 html {
@@ -47,7 +48,7 @@ p{
     font-family: "Work Sans";
     color: var(--foreground-dark);
     background-color: var(--background-dark);
-    font-size: clamp(1rem, 1.8vw, 1.4rem);
+    font-size: clamp(1rem, 1.3vw, 1.4rem);
     --background-dark: oklch(27% 0.01 275);
     --foreground-dark: oklch(80% 0.03 275);
     --background-dark-elevated: oklch(30% 0.01 275);
@@ -68,18 +69,44 @@ a {
 
 h1 {
     color: var(--highlight-dark);
-    font-size: 3rem;
-    font-family: "Outfit";
-    font-weight: 400;
+    font-size: 2rem;
+    /*font-family: "Outfit";*/
+    font-family: "Work Sans";
+    font-weight: 600;
 
 }
 
+h2 {
+    color: var(--highlight-dark);
+    font-size: 1.3rem;
+    /*font-family: "Outfit";*/
+    font-family: "Work Sans";
+    font-weight: 600;
+}
 
+h3 {
+  color: var(--highlight-dark);
+  font-size: 1rem;
+  /*font-family: "Outfit";*/
+  font-family: "Work Sans";
+  font-weight: 600;
+}
+
+details {
+  width: 75ch;
+  padding: 1rem;
+  border: 2px solid var(--foreground-dark);
+  border-radius: 15px;
+}
 
 .article_content {
-  margin: clamp(2px, 10dvw, 100px);
-
+  scroll-margin-top: 1000px;
+  margin: clamp(2px, 12dvw, 100px);
+  display: grid;
+  justify-content: center;
+  gap: .6rem;
 }
+
 #logo {
   display: grid;
   grid-template-columns: 100px 1fr;
@@ -87,6 +114,7 @@ h1 {
   font-family: Outfit;
   font-size: 2rem;
   font-weight: 900;
+  color: var(--highlight-dark);
 }
 #logo img {
   border-radius: 40%;
@@ -108,6 +136,43 @@ header {
   border-bottom: 5px thick double var(--highlight-dark);
 }
 
+#footer {
+  padding-top: 5rem;
+  margin: auto;
+}
+
+.centered {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  justify-items: center;
+}
+
+#scrolltotop {
+  position: sticky;
+  bottom: 50px;
+  display: grid;
+  justify-content: end;
+}
+
+.centered > svg{
+  position: absolute;
+
+}
+
+button {
+  all: unset;
+}
+
+button:focus {
+  outline: revert;
+}
+
+button:hover {
+  cursor:pointer;
+}
+
 .post {
   background-color: var(--background-dark-elevated);
   border-radius: 5px;
@@ -117,7 +182,8 @@ header {
 
 .hljs {
     /*display:inline-block;  clamp(10px,30vw, 300px)*/
-    width: clamp(10rem,50vw, 30rem);
+    /*width: clamp(10rem,50vw, 50rem);*/
+    width: fit-content;
     display:inline-block;
     
     margin: 2vw;
@@ -179,20 +245,27 @@ header {
     border-radius: 30px;
     padding: 0.4rem;
   }
-  /*
+  
  .markdown-alert {
   background-color: var(--background-dark-elevated);
-  border-radius: 20px;
+  border-radius: 15px;
   padding: 1rem;
+  margin: 1rem;
   width: fit-content;
  }
  
  .markdown-alert-title {
   display: grid;
-  grid-template-columns: 1rem 1fr;
+  grid-template-columns: 1.5rem 1fr;
+  margin-bottom: .2rem;
+  font-weight: 700;
+  align-items: center;
  }
  
  .markdown-alert-title svg{
   fill: var(--highlight-dark);
  }
- */
+ 
+ hr {
+  margin-top: 100vh;
+ }

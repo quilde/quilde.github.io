@@ -48,19 +48,6 @@ var rssobj = {
 
 buildposts()
 
-/*async function import_octo() {
-  try {
-    const moduleA = await import("@octokit/rest");
-    console.log('Inside main function...');
-    
-  }
-  catch(err) {
-    console.log(err);
-  }
-  return moduleA
-}*/
-
-
 function buildposts() {
 
 
@@ -131,7 +118,8 @@ async function build(data, filename) {
     output += `<link rel="stylesheet" href="` + file.data.styles[style] + `"/>`
   }
   output += htmlheadend
-  output += m.parse(file.content) + htmlend
+  output += m.parse(file.content) 
+  output += htmlend
 
   console.log(output)
 
@@ -166,6 +154,7 @@ const htmlhead = `
     <link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <script type="module" src="../arrow_components.js"></script>
+
     
     <link rel="icon" type="image/png" href="/quilde.github.io/favicon-96x96.png" sizes="96x96" />
     <link rel="icon" type="image/svg+xml" href="/quilde.github.io/favicon.svg" />
@@ -180,12 +169,12 @@ const htmlheadend = `
 
 <body id="root">
     <main>
-        
+
 `
 
 
 const htmlend = `
-
+    <i data-lucide="menu"></i>
     </main>
 
 

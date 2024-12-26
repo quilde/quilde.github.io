@@ -20,7 +20,7 @@ description: foo bar baz
             </div> 
 </section>      
 
-<article class="article_content">
+<article class="article_content"  id="article_content">
 
 ![index diachronica badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fquilde.github.io%2Findexdiachronica%2Findex_json%2Fafroasiatic.json&query=%24.change_sets%5B%3A1%5D.to&logo=json&logoColor=8495f9&label=Index%20Diachronica%20lang%3A
 )

@@ -4,7 +4,9 @@ description: test
 ---
 <div id="myheader"></div>
 
-<article class="article_content">
+<article class="article_content"  id="article_content">
+
+<div id="test"></div>
 
 # md
 
@@ -17,6 +19,8 @@ nice emojis :tada:
 - md
 - small
 - no or fast builds
+
+---
 
 # Example
 
@@ -50,5 +54,12 @@ const options = {
     ]
   }
 ```
+---
+# bla
+
+<script>
+  const el = document.getElementById("test");
+  console.log(el.closest("hr"));
+</script>
 
 </article>
