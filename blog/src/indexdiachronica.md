@@ -28,19 +28,24 @@ description: foo bar baz
 ![some sounds](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fquilde.github.io%2Findexdiachronica%2Findex_json%2Fafroasiatic.json&query=%24.change_sets%5B%3A1%5D.changes%5B%3A1%5D.before&logo=json&logoColor=8495f9&label=some%20sounds%20from%20Index%20Diachronica%3A
 )
 
-## Synopsis
+![Index Diachronica flyer](https://github.com/quilde/indexdiachronica/blob/main/publicity/flyer.PNG?raw=true)
+
+## The story so far
 
 The Index Diachronica is a giant catalog of [sound changes](https://en.wikipedia.org/wiki/Sound_change) 
 It is hosted here: [Index](https://chridd.nfshost.com/diachronica/) 
 
 @amundo and @man-in-space had the idea to convert this document into a database of json files, because then the rules are data, and we can do all kinds of neat things with them. 
 
-However there has been no activity on the project since 8 years. So I sneakily decided to fork the project and actually do it for real.
+However there has been no activity on the project since 8 years. So I decided to fork the project and actually do it for real.
+
+Then in July 24 I released the first usable version.
 
 ## Roadmap
-- July: release v0.1.0 
-- till September: decide on format 
-- after that: start checking the rules, fix broken stuff and search new sound changes
+- [x] July: release v0.1.0 
+- [x] till September: decide on format 
+- [ ] currently: readd sources, make families Glottolog-compliant
+- [ ] after that: start checking the rules, fix broken stuff and search new sound changes
  
 ## Get Involved!
 We're just getting started. Please join us at https://github.com/quilde/indexdiachronica/discussions/22

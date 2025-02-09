@@ -2,12 +2,13 @@
 
 
 :root {
+    --background-dark: oklch(30% 0.01 114);
+    
+    --background-dark-elevated: oklch(30% 0.01 294);
+    --highlight-dark: oklch(80% 0.143 294);
+    --contrary-dark: oklch(70% 0.148 114);
     color: var(--foreground-dark);
     background-color: var(--background-dark);
-    
-    --background-dark-elevated: oklch(30% 0.01 94);
-    --highlight-dark: oklch(80% 0.143 94);
-    --contrary-dark: oklch(70% 0.148 275);
 }
 
 ::selection {
@@ -17,12 +18,12 @@
 
 h1 {
     color: var(--highlight-dark);
-    font-size: 5rem;
+    font-size: 4.5rem;
     font-family: "Open Sans";
     font-weight: 900;
     line-height: 0.8;
     width: 8ch;
-    margin: 1rem 1rem 2rem 3rem ;
+    margin: 1rem 1rem 0rem 3rem ;
 }
 
 #hero {
@@ -63,6 +64,7 @@ h2 {
 
 .oldstyle {
   font-family: "UnifrakturCook", cursive;
+
 }
 
 
