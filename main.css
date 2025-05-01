@@ -93,7 +93,7 @@ h3 {
 }
 
 details {
-  width: 75ch;
+  /*max-width: 75ch;*/
   padding: 1rem;
   border: 2px solid var(--foreground-dark);
   border-radius: 15px;
@@ -101,10 +101,20 @@ details {
 
 .article_content {
   scroll-margin-top: 1000px;
-  margin: clamp(2px, 12dvw, 100px);
+  /*margin: clamp(2px, 12dvw, 100px);*/
   display: grid;
-  justify-content: center;
-  gap: .6rem;
+  
+  grid-template-columns: 1fr;
+
+  /*align-items: center;*/
+  /*gap: .6rem;*/
+}
+
+
+@media (width > 700px) {
+  main {
+    padding: 80px;
+  }
 }
 
 #logo {
@@ -183,18 +193,21 @@ button:hover {
 .hljs {
     /*display:inline-block;  clamp(10px,30vw, 300px)*/
     /*width: clamp(10rem,50vw, 50rem);*/
-    width: fit-content;
-    display:inline-block;
+    max-width: 100px;
+    min-width: 100%;
+    display: block;
+    overflow-x: scroll;
     
-    margin: 2vw;
-    padding: 1vw;
+    
+    /*margin: 2vw;
+    padding: 1vw;*/
     background: var(--background-dark-elevated);
     color: var(--foreground-dark);
     border-radius: 12px;
     font-family: "Fira Code";
     font-size: 0.8rem;
     font-weight: 480;
-    white-space: pre-wrap;
+    white-space: pre;
   }
   .hljs-comment,
   .hljs-quote {
