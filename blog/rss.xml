@@ -16,6 +16,11 @@
         <item>
             <title>Indexdiachronica</title>
             <description>foo bar baz</description>
+            <link>https://www.quilde.github.io/blog/lamaanda.html</link>
+        </item>
+        <item>
+            <title>Indexdiachronica</title>
+            <description>foo bar baz</description>
             <link>https://www.quilde.github.io/blog/indexdiachronica.html</link>
         </item>
         <item>
@@ -27,6 +32,11 @@
             <title>test</title>
             <description>test</description>
             <link>https://www.quilde.github.io/blog/test.html</link>
+        </item>
+        <item>
+            <title>Rendering</title>
+            <description>Does it work?</description>
+            <link>https://www.quilde.github.io/blog/ui_rendering.html</link>
         </item>
     </channel>
 </rss>

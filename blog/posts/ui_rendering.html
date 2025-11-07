@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<title>Test</title>
+
+<head>
+    <link rel="stylesheet" href="../../main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&display=swap" rel="stylesheet">
+    <script type="module" src="../arrow_components.js"></script>
+
+    
+    <link rel="icon" type="image/png" href="/quilde.github.io/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/quilde.github.io/favicon.svg" />
+    <link rel="shortcut icon" href="/quilde.github.io/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/quilde.github.io/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="MyWebSite" />
+    <link rel="manifest" href="/quilde.github.io/site.webmanifest" />
+
+</head>
+
+<body id="root">
+    <main>
+
+<div id="myheader"></div>
+
+<article class="article_content" id="article_content">
+
+<h2>More than text and rectangles</h2>
+<h2>On Triangles</h2>
+<p>You can render everything as triangles. But you have to be careful, especially when it comes to antialiasing.</p>
+<p><a href="https://www.egui.rs/#demo">Egui</a> does this very nicely. Have a look at &quot;Tesselation Test&quot;. </p>
+<p><a href="https://rive.app/blog/rive-renderer-now-open-source-and-available-on-all-platforms">Rive</a> also uses a similar technique. </p>
+<p>I really like this technique, because everything uses the same base system: triangles.
+That also makes it relatively easy to create custom rendering in egui; you just have to tesselate your shape and your good to go.</p>
+<p>Issues:</p>
+<ul>
+<li>Blend modes</li>
+<li>rendering should be at least a tree if not a dag</li>
+<li>need to cache shapes</li>
+<li>no creating geometry on the fly (animations!)</li>
+</ul>
+<h2>From the data</h2>
+<div class="markdown-alert markdown-alert-quote">
+<p class="text-quote"><i class="mr-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-quote-icon lucide-quote"><path d="M16 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"/><path d="M5 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"/></svg></i>Quote</p>
+<p> Not so long ago, before programmable shaders, it was necessary to cache parts of a UI in textures (CoreAnimation for example does this) to get good performance. Now we have extremely fast GPUs and such caching is not necessary to achieve good performance. In fact if enough is animating, lots of texture caching can hinder performance, since the caches need to be updated so often. Plus, the textures consume a fair amount of memory, and when you have an unbounded node-graph like Audulus, that memory usage would be unbounded. And what resolution do you pick for those textures?
+⸺ Taylor Holliday</p>
+</div>
+<h2>A single shader</h2>
+<p>rui</p>
+<p>Uber shaders</p>
+<h2>Custom rendering and</h2>
+<p>The moment you open yourself up for custom rendering everything kind of falls apart. </p>
+<div class="markdown-alert markdown-alert-note">
+<p class="markdown-alert-title"><svg class="octicon octicon-info mr-2" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg>Note</p>
+<p> Essës First Law of Rendering
+In general, the more specialized your implementation is, the faster it can run.</p>
+</div>
+<h2>Render Graphs</h2>
+<p><a href="https://poniesandlight.co.uk/reflect/island_rendergraph_1/">https://poniesandlight.co.uk/reflect/island_rendergraph_1/</a></p>
+<p>goes against instancing</p>
+<h2>A dissatisfying answer</h2>
+</article>
+    <i data-lucide="menu"></i>
+    </main>
+
+
+</body>
+</html>
