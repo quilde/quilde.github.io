@@ -12,7 +12,7 @@
 }
 
 body {
-    min-height: 100svh;
+    /*min-height: 100svh;*/
     padding: 4.5rem;
     
 }
@@ -45,10 +45,11 @@ p{
 
 :root {
     font-optical-sizing: auto;
-    font-family: "Work Sans";
+    font-family: "Crimson Pro";
     color: var(--foreground-dark);
     background-color: var(--background-dark);
-    font-size: clamp(1rem, 1.3vw, 1.4rem);
+    /*font-size: clamp(1rem, 1.8vw, 1.4rem);*/
+    font-size: 1.2rem;
     --background-dark: oklch(27% 0.01 275);
     --foreground-dark: oklch(80% 0.03 275);
     --background-dark-elevated: oklch(30% 0.01 275);
@@ -72,7 +73,7 @@ h1 {
     color: var(--highlight-dark);
     font-size: 2rem;
     /*font-family: "Outfit";*/
-    font-family: "Work Sans";
+    font-family: "Overlock";
     font-weight: 600;
 
 }
@@ -167,7 +168,7 @@ header {
   justify-content: end;
 }
 
-.centered > svg{
+.centered > svg {
   position: absolute;
 
 }
@@ -182,6 +183,13 @@ button:focus {
 
 button:hover {
   cursor:pointer;
+}
+
+#home {
+  display:grid;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
 }
 
 .post {
